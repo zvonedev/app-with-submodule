@@ -11,6 +11,7 @@
 		6DBECE852A2A02330000E550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBECE842A2A02330000E550 /* ContentView.swift */; };
 		6DBECE872A2A02350000E550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBECE862A2A02350000E550 /* Assets.xcassets */; };
 		6DBECE8A2A2A02350000E550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBECE892A2A02350000E550 /* Preview Assets.xcassets */; };
+		6DE16A042A2A06A500AA8D01 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE16A032A2A06A500AA8D01 /* TestFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6DBECE842A2A02330000E550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DBECE862A2A02350000E550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DBECE892A2A02350000E550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DE16A032A2A06A500AA8D01 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				6DBECE822A2A02330000E550 /* git_project_with_submodulesApp.swift */,
+				6DE16A032A2A06A500AA8D01 /* TestFile.swift */,
 				6DBECE842A2A02330000E550 /* ContentView.swift */,
 				6DBECE862A2A02350000E550 /* Assets.xcassets */,
 				6DBECE882A2A02350000E550 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE16A042A2A06A500AA8D01 /* TestFile.swift in Sources */,
 				6DBECE852A2A02330000E550 /* ContentView.swift in Sources */,
 				6DBECE832A2A02330000E550 /* git_project_with_submodulesApp.swift in Sources */,
 			);
