@@ -1,3 +1,0 @@
-[submodule "git-submodule"]
-	path = git-submodule
-	url = git@github.com:zvonedev/git-submodule.git

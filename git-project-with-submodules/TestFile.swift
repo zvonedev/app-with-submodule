@@ -6,7 +6,8 @@
 //
 
 import Foundation
+import git_submodule
 
 struct TestStruct {
-  
+  let mySomething = SomeStruct().something
 }

@@ -14,6 +14,19 @@
 		6DE16A042A2A06A500AA8D01 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE16A032A2A06A500AA8D01 /* TestFile.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6DE16A492A2A0D0200AA8D01 /* Copy frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		6DBECE7F2A2A02330000E550 /* git-project-with-submodules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git-project-with-submodules.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBECE822A2A02330000E550 /* git_project_with_submodulesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git_project_with_submodulesApp.swift; sourceTree = "<group>"; };
@@ -39,6 +52,7 @@
 			children = (
 				6DBECE812A2A02330000E550 /* git-project-with-submodules */,
 				6DBECE802A2A02330000E550 /* Products */,
+				6DE16A462A2A0C5700AA8D01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +84,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6DE16A462A2A0C5700AA8D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,6 +101,7 @@
 				6DBECE7B2A2A02330000E550 /* Sources */,
 				6DBECE7C2A2A02330000E550 /* Frameworks */,
 				6DBECE7D2A2A02330000E550 /* Resources */,
+				6DE16A492A2A0D0200AA8D01 /* Copy frameworks */,
 			);
 			buildRules = (
 			);
